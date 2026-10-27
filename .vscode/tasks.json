@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run website (http://localhost:8000)",
+      "type": "shell",
+      "command": "source venv/bin/activate && python -m src.main web",
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "Run tests",
+      "type": "shell",
+      "command": "source venv/bin/activate && python -m pytest -q",
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "Check WhatsApp setup",
+      "type": "shell",
+      "command": "source venv/bin/activate && python -m src.main whatsapp-check",
+      "problemMatcher": []
+    }
+  ]
+}

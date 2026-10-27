@@ -1,0 +1,9 @@
+column,missing_before,missing_pct_before,missing_after,missing_pct_after
+invoice,0,0.0,0,0.0
+stock_code,0,0.0,0,0.0
+description,295,0.97,0,0.0
+quantity,0,0.0,0,0.0
+invoice_date,0,0.0,0,0.0
+price,0,0.0,0,0.0
+customer_id,6641,21.77,0,0.0
+country,0,0.0,0,0.0

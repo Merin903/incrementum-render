@@ -1,0 +1,75 @@
+{
+  "rows": 30500,
+  "columns": [
+    "Invoice",
+    "StockCode",
+    "Description",
+    "Quantity",
+    "InvoiceDate",
+    "Price",
+    "Customer ID",
+    "Country"
+  ],
+  "dtypes": {
+    "Invoice": "str",
+    "StockCode": "str",
+    "Description": "str",
+    "Quantity": "str",
+    "InvoiceDate": "str",
+    "Price": "str",
+    "Customer ID": "str",
+    "Country": "str"
+  },
+  "sample_records": [
+    {
+      "Invoice": "491839",
+      "StockCode": "20130",
+      "Description": "PRODUCT 20130 LIGHT",
+      "Quantity": "15",
+      "InvoiceDate": "2010-06-26 23:26:06",
+      "Price": "5.02",
+      "Customer ID": "12006.0",
+      "Country": "United Kingdom"
+    },
+    {
+      "Invoice": "492070",
+      "StockCode": "20265",
+      "Description": "PRODUCT 20265 LIGHT",
+      "Quantity": "27",
+      "InvoiceDate": "2010-08-23 21:49:26",
+      "Price": "11.25",
+      "Customer ID": "17966.0",
+      "Country": "United Kingdom"
+    },
+    {
+      "Invoice": "493531",
+      "StockCode": "20155",
+      "Description": "PRODUCT 20155 LIGHT",
+      "Quantity": "3",
+      "InvoiceDate": "2010-03-30 17:40:41",
+      "Price": "13.25",
+      "Customer ID": "17986.0",
+      "Country": "United Kingdom"
+    },
+    {
+      "Invoice": "494702",
+      "StockCode": "20147",
+      "Description": "PRODUCT 20147 LIGHT",
+      "Quantity": "34",
+      "InvoiceDate": "2010-05-28 18:05:45",
+      "Price": "11.35",
+      "Customer ID": "17403.0",
+      "Country": "United Kingdom"
+    },
+    {
+      "Invoice": "489209",
+      "StockCode": "20105",
+      "Description": "PRODUCT 20105 LIGHT",
+      "Quantity": "5",
+      "InvoiceDate": "2010-08-14 11:09:14",
+      "Price": "12.72",
+      "Customer ID": "12663.0",
+      "Country": "United Kingdom"
+    }
+  ]
+}

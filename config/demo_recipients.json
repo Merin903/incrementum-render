@@ -1,0 +1,10 @@
+{
+  "_note": "Each person maps to a SYNTHETIC demo customer. Phone numbers live in .env (phone_env_key), never here. Keep consent false until the person has agreed to receive demo messages.",
+  "recipients": [
+    {"name": "Merin",   "customer_id": "DEMO-MERIN",   "phone_env_key": "DEMO_PHONE_MERIN",   "consent": false},
+    {"name": "Delna",   "customer_id": "DEMO-DELNA",   "phone_env_key": "DEMO_PHONE_DELNA",   "consent": false},
+    {"name": "Hanna",   "customer_id": "DEMO-HANNA",   "phone_env_key": "DEMO_PHONE_HANNA",   "consent": false},
+    {"name": "Angel",   "customer_id": "DEMO-ANGEL",   "phone_env_key": "DEMO_PHONE_ANGEL",   "consent": false},
+    {"name": "Adwoith", "customer_id": "DEMO-ADWOITH", "phone_env_key": "DEMO_PHONE_ADWOITH", "consent": false}
+  ]
+}

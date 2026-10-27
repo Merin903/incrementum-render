@@ -1,0 +1,61 @@
+{
+  "_note": "SAMPLE configuration - edit to match the offers you want to demo. discount_percent may be null; then promo_text is used. Nothing is invented: only what is written here is ever sent.",
+  "offers": [
+    {
+      "offer_code": "OFF-DETTOL",
+      "stock_code": "DET500",
+      "discount_percent": 20,
+      "promo_text": null,
+      "valid_from": "2026-10-01",
+      "valid_to": "2026-12-31"
+    },
+    {
+      "offer_code": "OFF-HARPIC",
+      "stock_code": "HAR750",
+      "discount_percent": 15,
+      "promo_text": null,
+      "valid_from": "2026-10-01",
+      "valid_to": "2026-12-31"
+    },
+    {
+      "offer_code": "OFF-COKE",
+      "stock_code": "COK750",
+      "discount_percent": null,
+      "promo_text": "Special promotional price - ask at the counter",
+      "valid_from": "2026-10-01",
+      "valid_to": "2026-12-31"
+    },
+    {
+      "offer_code": "OFF-LAYS",
+      "stock_code": "LAY52",
+      "discount_percent": null,
+      "promo_text": "Special promotional price - ask at the counter",
+      "valid_from": "2026-10-01",
+      "valid_to": "2026-12-31"
+    },
+    {
+      "offer_code": "OFF-RICE",
+      "stock_code": "RICE5",
+      "discount_percent": 10,
+      "promo_text": null,
+      "valid_from": "2026-10-01",
+      "valid_to": "2026-12-31"
+    },
+    {
+      "offer_code": "OFF-MILK",
+      "stock_code": "MLK1L",
+      "discount_percent": null,
+      "promo_text": "Special promotional price - ask at the counter",
+      "valid_from": "2026-10-01",
+      "valid_to": "2026-12-31"
+    },
+    {
+      "offer_code": "OFF-SURF-EXPIRED",
+      "stock_code": "SRF1KG",
+      "discount_percent": 10,
+      "promo_text": null,
+      "valid_from": "2026-08-01",
+      "valid_to": "2026-09-30"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "_note": "SAMPLE business rules for Part 2 (proposed offers). Edit freely. Discounts come ONLY from these tiers.",
+  "lookback_days": 90,
+  "min_purchases": 2,
+  "tiers": [
+    {"min_purchases": 4, "discount_percent": 10},
+    {"min_purchases": 2, "discount_percent": 5}
+  ],
+  "valid_days_after_approval": 7,
+  "max_proposals_per_customer": 1
+}

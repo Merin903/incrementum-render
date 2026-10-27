@@ -1,0 +1,11 @@
+rule,rows
+non-numeric quantity,0
+non-numeric price,0
+unparseable invoice_date,0
+missing invoice/stock_code/date/quantity/price,0
+invoice is not a 6-digit sales invoice,0
+quantity <= 0 (non-cancellation),2720
+price <= 0,656
+"non-product stock code (POST, BANK CHARGES, ...)",234
+customer_id missing or invalid,5641
+exact duplicate rows,500

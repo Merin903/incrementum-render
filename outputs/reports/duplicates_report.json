@@ -1,0 +1,55 @@
+{
+  "duplicate_rows_removed": 500,
+  "examples": [
+    {
+      "invoice": "492499",
+      "stock_code": "20042",
+      "description": "PRODUCT 20042 LIGHT",
+      "quantity": "27",
+      "invoice_date": "2010-12-28 09:14:53",
+      "price": "14.89",
+      "customer_id": NaN,
+      "country": "United Kingdom"
+    },
+    {
+      "invoice": "490023",
+      "stock_code": "20100",
+      "description": "PRODUCT 20100 LIGHT",
+      "quantity": "9",
+      "invoice_date": "2010-09-21 19:31:04",
+      "price": "3.23",
+      "customer_id": NaN,
+      "country": "United Kingdom"
+    },
+    {
+      "invoice": "490833",
+      "stock_code": "20051",
+      "description": "PRODUCT 20051 LIGHT",
+      "quantity": "1",
+      "invoice_date": "2010-03-27 22:50:13",
+      "price": "3.15",
+      "customer_id": "14983.0",
+      "country": "United Kingdom"
+    },
+    {
+      "invoice": "493572",
+      "stock_code": "20210",
+      "description": "PRODUCT 20210 LIGHT",
+      "quantity": "21",
+      "invoice_date": "2010-02-03 18:16:47",
+      "price": "0.02",
+      "customer_id": "15237.0",
+      "country": "United Kingdom"
+    },
+    {
+      "invoice": "494691",
+      "stock_code": "20246",
+      "description": "PRODUCT 20246 LIGHT",
+      "quantity": "10",
+      "invoice_date": "2010-06-05 23:48:38",
+      "price": "19.88",
+      "customer_id": "17759.0",
+      "country": "United Kingdom"
+    }
+  ]
+}

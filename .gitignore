@@ -1,0 +1,24 @@
+# secrets and local configuration (never commit)
+.env
+# Python / tooling
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+# data: too large for GitHub (100 MB limit) and re-creatable with the pipeline; folders kept with .gitkeep
+data/raw/*
+data/cleaned/*
+data/processed/*
+data/powerbi_exports/*
+data/synthetic_demo/*
+data/*.db
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+!data/processed/.gitkeep
+!data/powerbi_exports/.gitkeep
+!data/synthetic_demo/.gitkeep
+# logs may contain names and message text
+outputs/logs/*
+!outputs/logs/.gitkeep

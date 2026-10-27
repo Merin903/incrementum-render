@@ -1,0 +1,8 @@
+metric,before,after
+rows,30500,20130
+rows incl. guest sales,30500,25771
+return/cancellation rows (separate file),0,619
+distinct invoices,6547,5786
+distinct customers,5895,5801
+distinct products,304,301
+total sales value,,4007001.9
